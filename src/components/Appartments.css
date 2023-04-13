@@ -1,0 +1,11 @@
+.Appartments {
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 829px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
