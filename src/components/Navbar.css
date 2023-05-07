@@ -1,13 +1,30 @@
 .navbar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.2rem;
+    padding-inline: 100px;
+    margin-bottom: 63px;
     background-color: #FFF;
     color: #ff6060;  
-    gap: 2rem;
     font-size: 24px;
     font-weight: bold;
 }
+.navbar a {
+    text-decoration: none;
+    color: #ff6060;
+}
+.navbar a.active {
+    text-decoration: underline;
+}
+.list_style {
+    list-style-type: none;
+    display: flex;
+    gap: 57px;
+}
 .navbar_logo {
-    margin-right: auto;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    
 }

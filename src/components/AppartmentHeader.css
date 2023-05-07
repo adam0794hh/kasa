@@ -1,0 +1,38 @@
+.appartment_host h3 {
+    margin-top: 30px;
+    margin-bottom: 33px;
+    width: 92px;
+    font-weight: 500;
+}
+.appartment_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.appartment_tags {
+    display: flex;
+    gap: 10px;
+}
+.appartment_tags span {
+    padding: 5px 30px;
+    background-color: #ff6060;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.appartment_host {
+    display: flex;
+    gap: 10px;
+}
+.host {
+    border: solid 1px #C4C4C4;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-top: 27px;
+}
+.rate_stars {
+    margin-left: 30px;
+}

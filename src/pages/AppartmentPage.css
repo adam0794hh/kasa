@@ -1,0 +1,23 @@
+.appartment-page {
+    color: #ff6060;
+    padding-inline: 120px;
+    
+}
+.appartment-page img {
+    width: 100%;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.appartment_description-content {
+    display: flex;
+    gap: 96px;
+}

@@ -1,15 +1,22 @@
 .card {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    background-color: #ff6060;
-    flex-basis: 30%;
+    position: relative;
+    width: 30%;
+    height: 100%;
     border-radius: 10px;
     display: flex;
     align-items: end;
 }
+.card img {
+    width: 100%;
+    height: 263px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0);
+}
 .card_title {
-    width: 40%;
+    position: absolute;
+    top: 80%;
     margin-inline-start: 20px;
-    margin-block-end: 20px;
     color: white;
     font-weight: 500;
     font-size: 18px;
