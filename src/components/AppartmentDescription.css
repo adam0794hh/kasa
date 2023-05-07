@@ -1,0 +1,38 @@
+.appartment_description {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.description_title {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 99%;
+    top: -6%;
+    margin: 0;
+    background-color: #ff6060;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+i {
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.description_content {
+    width: 98%;
+    background-color: #F7F7F7;
+    margin-top: 0;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 7px;
+    padding-bottom: 53px;
+    font-size: 18px;
+    font-weight: 400;
+}

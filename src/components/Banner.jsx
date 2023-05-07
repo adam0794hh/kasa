@@ -3,9 +3,13 @@ import "./Banner.css"
 
 function Banner() {
   return (
-    <div className='banner'>
-        <h1>Chez vous, parout ou ailleurs</h1>
+    <div className='banner_content'>
         
+      <div className='banner'>
+        <img className='image' src='/banner.jpg'></img>
+        <h1>Chez vous, partout et ailleurs</h1>
+      </div>
+      
     </div>
   )
 }
