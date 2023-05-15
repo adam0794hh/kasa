@@ -14,7 +14,7 @@ function AppartmentPage() {
     fetch("logements.json")
       .then((res) => res.json())
       .then((apparts) => {
-        const appart = apparts.find((appart) => appart.id = location.state.appartId);
+        const appart = apparts.find((appart) => appart.id === location.state.appartId);
         setselectedAppart(appart);
       })
       .catch(console.error);
@@ -22,12 +22,16 @@ function AppartmentPage() {
   if (selectedAppart == null ) return <div>...loading</div>
   return (
     <div className='appartment-page'>
-        <AppartmentBanner imageUrl = {selectedAppart.cover}/>
-        <AppartmentHeader/>
+        <AppartmentBanner imageUrl = {selectedAppart.cover} imageArray = {selectedAppart.pictures}/>
+        <AppartmentHeader selectedAppart = {selectedAppart} />
         
         <div className='appartment_description-content'>
-            <AppartmentDescription title="Description"/>
-            <AppartmentDescription title="Équipements"/>
+            <AppartmentDescription title="Description" content = {selectedAppart.description}/>
+            <AppartmentDescription title="Équipements" 
+            content = {selectedAppart.equipments.map((eq)=> (
+              <li>{eq}</li>
+              
+            ))} />
         </div>
         
     </div>
