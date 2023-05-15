@@ -6,7 +6,7 @@ function Banner() {
     <div className='banner_content'>
         
       <div className='banner'>
-        <img className='image' src='/banner.jpg'></img>
+        <img className='image' src="banner.jpg"></img>
         <h1>Chez vous, partout et ailleurs</h1>
       </div>
       

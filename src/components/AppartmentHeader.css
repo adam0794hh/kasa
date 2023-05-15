@@ -25,7 +25,7 @@
     display: flex;
     gap: 10px;
 }
-.host {
+.host img {
     border: solid 1px #C4C4C4;
     width: 64px;
     height: 64px;
