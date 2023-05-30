@@ -26,8 +26,8 @@ function AppartmentBanner(props) {
         <img key={img} src={img} className={getClassName(i)}>
         </img>
         ))}
-        <i onClick={moveToNext} class="fa-solid fa-chevron-right fa-2xl"></i> 
-        <i onClick={moveToPrevious} class="fa-solid fa-chevron-left fa-2xl"></i>
+        <i onClick={moveToNext} className="fa-solid fa-chevron-right fa-xl"></i> 
+        <i onClick={moveToPrevious} className="fa-solid fa-chevron-left fa-xl"></i>
     </div>
   )
 }
