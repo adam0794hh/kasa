@@ -16,5 +16,15 @@
     font-size: 18px;
     font-weight: 500;
     color: #FF6060;
-
+}
+@media screen and (max-width:768px) {
+    .error-h1 {
+        font-size: 96px;
+        margin-bottom: 11px;
+        margin-top: 200px;
+    }
+}   .error-h2 {
+    font-size: 18px;
+    width: 50%;
+    margin-left: 30px;
 }

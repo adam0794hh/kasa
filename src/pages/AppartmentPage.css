@@ -1,6 +1,6 @@
 .appartment-page {
     color: #ff6060;
-    padding-inline: 120px;
+    padding-inline: 100px;
     
 }
 .appartment-banner {
@@ -25,16 +25,20 @@
 .fa-chevron-left {
     position: absolute;
     bottom: 50%;
-    font-size: 100px;
+    font-size: 80px;
     color: white;
+    margin-left: 23px;
+    cursor: pointer;
     
 }
 .fa-chevron-right {
     position: absolute;
     right: 0%;
     bottom: 50%;
-    font-size: 100px;
+    font-size: 80px;
     color: white;
+    margin-right: 23px;
+    cursor: pointer;
 }
 
 h1 {
@@ -51,4 +55,33 @@ h2 {
 .appartment_description-content {
     display: flex;
     gap: 96px;
+}
+
+@media screen and (max-width:768px) {
+    .appartment-page {
+        padding-inline: 20px;
+        width: 100%;
+    }
+    .appartment-banner {
+        width: 100%;
+        height: 255px;
+    }
+    .fa-chevron-left {
+        font-size: 40px;
+    }
+    .fa-chevron-right {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .appartment_description-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-right: 20px;
+    }
 }

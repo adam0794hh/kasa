@@ -1,7 +1,8 @@
 .appartment_description {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     flex-basis: 50%;
+    width: 70%;
 }
 
 .description_title {
@@ -20,9 +21,9 @@
     padding-top: 13px;
     padding-bottom: 16px;
 }
-i {
+.fa-chevron-down {
     margin-top: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
     cursor: pointer;
 }
 .description_content {
@@ -39,6 +40,7 @@ i {
 }
 .description_content p {
     animation: slide-in 0.5s ease-in-out;
+    padding-top: 10px;
 }
 .description_content p li {
     display: flex;
@@ -46,9 +48,14 @@ i {
 
 @keyframes slide-in {
     0% {
-        transform: translateY(-100%);
+        transform: translateY(-30%);
     }
     100% {
         transform: translateY(0);
+    }
+}
+@media screen and (max-width:768px) {
+    .appartment_description {
+        width: 100%;
     }
 }

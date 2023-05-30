@@ -34,3 +34,18 @@
     font-size: 48px;
     font-weight: bold;
 }
+@media screen and (max-width:768px){
+    .banner {
+        height: 111px;
+        max-width: 100%;
+    }
+    .image {
+        height: 111px;
+    }
+    .banner h1 {
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 16px;
+        
+    }
+}
