@@ -29,7 +29,7 @@ function AppartmentPage() {
             <AppartmentDescription title="Description" content = {selectedAppart.description}/>
             <AppartmentDescription title="Équipements" 
             content = {selectedAppart.equipments.map((eq)=> (
-              <li>{eq}</li>
+              <li key={eq}>{eq}</li>
               
             ))} />
         </div>
