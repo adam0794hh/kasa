@@ -13,7 +13,7 @@ function Navbar() {
         <div>
           <ul className='list_style'>
             <li>
-            <NavLink to={"/"}>Acceuil</NavLink>
+            <NavLink to={"/"}>Accueil</NavLink>
             </li>
             <li>
             <NavLink to={"/about"}>A propos</NavLink>
