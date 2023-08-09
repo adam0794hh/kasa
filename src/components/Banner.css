@@ -39,6 +39,9 @@
         height: 111px;
         max-width: 100%;
     }
+    .banner_content {
+        width: 90%;
+    }
     .image {
         height: 111px;
     }

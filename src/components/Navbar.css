@@ -27,11 +27,11 @@
 
 @media screen and (max-width:768px) {
     .navbar {
-        padding-inline: 20px;
+        padding-inline: 0px;
+        padding-left: 20px;
         display: flex;
-        gap: 120px;
         margin-bottom: 20px;
-        width: 97vw;
+        width: 90%;
     }
     .navbar_logo {
         width: 145px;

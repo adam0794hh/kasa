@@ -8,6 +8,6 @@
 @media screen and (max-width:768px) {
     .main {
         width: 100%;
-        padding-inline: 20px;
+        padding-inline: 0px;
     }
 }
