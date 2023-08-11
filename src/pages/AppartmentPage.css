@@ -69,7 +69,6 @@ h2 {
 @media screen and (max-width:768px) {
     .appartment-page {
         padding-inline: 20px;
-        width: 100%;
     }
     .appartment-banner {
         width: 100%;
